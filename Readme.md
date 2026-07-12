@@ -2,12 +2,11 @@
 ### Introduction
 <<<<<<< HEAD
 Afya Plus Health currently have an AI medical sorting pipeline that processes incoming patient messages, prioritises them by urgency, distinguishes high-risk emergencies from routine inquiries, and routes them appropriately. 
+
 It currently has the folwing chalenges:
     - Unreliable processing due to free form text submitted by patients.
     - Halucinations of clinical facts and conversational fluff.
     - System crashes when network degrades.
-=======
->>>>>>> 01b2faadcdc856b65370d26bd06f20a15efa7fae
 
 Goal is to develop an improved chatbot that solves the above problems
 
@@ -18,17 +17,6 @@ Build a production grade chatbot that:
 - Has accurate inference with minimal hallucinations.
 - Has security guardrails implemented
 
-<<<<<<< HEAD
-=======
-
-
-### System Design
-
-
-
-
-
->>>>>>> 01b2faadcdc856b65370d26bd06f20a15efa7fae
 ### Prompts.
 Prompts iteration - The script iterates through 3 different prompts. Starting from a basic naiv prompt with just an instruction, going to a more advances prompt that incorporates roles and a structured output format, to a strict and defensive prompt that incorporates roles and chain of thinking and security guardrails. The output from the different prompts are shown below 
 
