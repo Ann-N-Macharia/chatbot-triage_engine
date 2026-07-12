@@ -1,12 +1,11 @@
 ## Project overview
 ### Introduction
-<<<<<<< HEAD
 Afya Plus Health currently have an AI medical sorting pipeline that processes incoming patient messages, prioritises them by urgency, distinguishes high-risk emergencies from routine inquiries, and routes them appropriately. 
 
 It currently has the folwing chalenges:
-    - Unreliable processing due to free form text submitted by patients.
-    - Halucinations of clinical facts and conversational fluff.
-    - System crashes when network degrades.
+- Unreliable processing due to free form text submitted by patients.
+- Halucinations of clinical facts and conversational fluff.
+- System crashes when network degrades.
 
 Goal is to develop an improved chatbot that solves the above problems
 
